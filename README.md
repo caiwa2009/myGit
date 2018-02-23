@@ -1,3 +1,0 @@
-# myGidjfiekfekfjfljt
-#kjjkjkef`
-# myGit
