@@ -8,13 +8,35 @@
 out
 gen
 
-#log file
-*.log
+*.class
 
-# eclipse
-.settings
-.classpath
+#package files
+
+*.war
+*.ear
+
+#kdiff3 ignore
+target/
+
+#eclipse ignore
+.settings/
 .project
+.classpath
 
-# lib
-lib/
+#idea
+.idea/
+/idea/
+*.ipr
+*.iws
+
+# temp file
+
+*.log
+*.cache
+*.diff
+*.patch
+*.tmp
+
+#system ignore
+.DS_Store
+Thumbs.db

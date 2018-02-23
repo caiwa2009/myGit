@@ -24,7 +24,7 @@ public class BaseDemo {
 //        queryDocument(client);
 //        updateDocument(client);
         deleteDocument(client);
-//        client.close();
+        client.close();
     }
 //删除文档
     private static void deleteDocument(TransportClient client) {
